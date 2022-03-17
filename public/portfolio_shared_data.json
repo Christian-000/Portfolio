@@ -1,17 +1,32 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Christian Piccinini",
+      "titles": [ "FullStack Developer", "Mobile App Developer", "Proactive" ],
       "social": [
+        {
+          "name": "linkedIn",
+          "url": "https://www.linkedin.com/in/christian-piccinini/",
+          "class": "fab fa-linkedin"
+        },
         {
           "name": "github",
           "url": "https://github.com",
           "class": "fab fa-github"
         },
         {
+          "name": "mail",
+          "url": "mailto:christianpiccinini4@gmail.com",
+          "class": "far fa-envelope"
+        },
+        {
           "name": "instagram",
           "url": "https://www.instagram.com",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "CV",
+          "url": "https://drive.google.com/file/d/1qeBtS08b--32CDImjUGMsa9HVnuyduuj/view?usp=sharing",
+          "class": "fas fa-file-pdf"
         }
       ],
       "image": "myProfile.jpg"
@@ -26,42 +41,67 @@
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
+          "level": "80"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "90"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "95"
         },
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
-          "level": "90"
+          "level": "80"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "90"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "50"
+        },
+        {
+          "name": "NodeJs",
+          "class": "devicon-nodejs-plain-wordmark",
+          "level": "95"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original-wordmark",
+          "level": "95"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "80"
+        },
+        {
+          "name": "React Native",
+          "class": "devicon-react-original",
+          "level": "80"
+        },
+        {
+          "name": "PosgreSql",
+          "class": "devicon-postgresql-plain",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "80"
         }
       ]
     }

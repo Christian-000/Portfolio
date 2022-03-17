@@ -1,117 +1,210 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hola!",
+      "description": "👋 Soy Christian, un amante de las tecnologías, apasionado por lo que hace, proactivo y que cada día intenta aprender un poco más!",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "PI Food",
+        "startDate": "2021",
+        "description": "Esta app fue creada consuminedo la popular api 'Spoonacular' como parte proyecto indivudual para el Bootcamp de 'SoyHenry', permite buscar, filtrar, crear y/o eliminar tus recetas que creaste previamente.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/PI-Food/PIFOOD.png",
+          "images/portfolio//PI-Food/PIFOOD2.png"
         ],
-        "url": "",
+        "url": "https://github.com/Christian-000/PI-Foods",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-jest-plain",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-postgresql-plain colored",
+            "name": "PosgreSQL"
+          },
+          {
+            "class": "devicon-redux-original colored",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Event-In",
+        "startDate": "2021",
+        "description": "Event-In es una app móvil, creada con el próposito de acercar a los usuarios a los eventos sociales y culturales de la zona, aportando la posibilidad de filtrarlos por fecha y categoría y buscarlos por nombre. Ya sea una fiesta, un recital o una muestra de arte, todos tienen la oportunidad de publicar el suyo.",
+        "images": [
+          "images/portfolio/EventIn/Logo_eventin.jpg",
+          "images/portfolio/EventIn/Feed_eventin.png",
+          "images/portfolio/EventIn/Register_eventin.png"
+        ],
+        "url": "https://github.com/Christian-000/EventIn",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-redux-original colored",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "UploadImg",
+        "startDate": "2021",
+        "description": "Proyecto creado para simular un storage de imagenes, inspirado en firestore",
+        "images": [
+          "images/portfolio/uploadImg/cloud-file-storage.png"
+        ],
+        "url": "https://github.com/Christian-000/uploadImg",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJs"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "tsc-app",
+        "startDate": "2021",
+        "description": "Proyecto creado con el fin de practicar TypeScript",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/tsc-app/typescript_logo.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Christian-000/tsc-app",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-handlebars-plain",
+            "name": "handlebars"
+          }
+        ]
+      },
+      {
+        "title": "YuGuide",
+        "startDate": "2022",
+        "description": "Buscador de cartas del famoso juego de Yu-Gi-Oh!",
+        "images": [
+          "images/portfolio/Yugi/yugipic.png"
+        ],
+        "url": "https://github.com/Christian-000/YuGuide",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-redux-original colored",
+            "name": "Redux"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Filosofando",
+        "startDate": "2022",
+        "description": "Api que contiene citas filosóficas famosas con sus respectivos autores.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Filosofando/filo.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Christian-000/Filosofando",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-express-original",
+            "name": "Express"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "UTN FRVM",
+        "title": "Ing. Sistemas",
+        "years": "2021 - Presente",
         "mainTech": [
-          "Angular 8/9/10"
+          ""
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "python",
+          "POO"        
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Soy Henry",
+        "title": "FullStack Developer",
+        "years": "2021 - 2021",
         "mainTech": [
-          "Angular 7/8"
+          "Javascript"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "REST API",
+          "Javascript",
+          "React",
+          "Redux",
+          "PosgreSQL",
+          "React Native",
+          "Typescript",
+          "Express",
+          "Git",
+          "Testing",
+          "SCRUM"
+        ]
+      },
+      {
+        "company": "Udemy",
+        "title": "Developer",
+        "years": "2021 - 2022",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "Typescript",
+          "MongoDB",
+          "React Native"        
         ]
       }
     ]
