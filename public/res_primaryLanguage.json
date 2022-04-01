@@ -1,211 +1,207 @@
 {
-    "basic_info": {
-      "description_header": "Hola!",
-      "description": "👋 Soy Christian, un amante de las tecnologías, apasionado por lo que hace, proactivo y que cada día intenta aprender un poco más!",
-      "section_name": {
-        "about": "Sobre mi",
-        "projects": "Proyectos",
-        "skills": "Habilidades",
-        "experience": "Experiencia"
-      }
+  "basic_info": {
+    "description_header": "Hola!",
+    "description": "👋 Soy Christian, un amante de las tecnologías, apasionado por lo que hace, proactivo y que cada día intenta aprender un poco más!",
+    "section_name": {
+      "about": "Sobre mi",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
+    }
+  },
+  "projects": [
+    {
+      "title": "PI Food",
+      "startDate": "2021",
+      "description": "Esta app fue creada consuminedo la popular api 'Spoonacular' como parte proyecto indivudual para el Bootcamp de 'SoyHenry', permite buscar, filtrar, crear y/o eliminar tus recetas que creaste previamente.",
+      "images": [
+        "images/portfolio/PI-Food/PIFOOD.png",
+        "images/portfolio//PI-Food/PIFOOD2.png"
+      ],
+      "url": "https://github.com/Christian-000/PI-Foods",
+      "technologies": [
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-jest-plain",
+          "name": "Jest"
+        },
+        {
+          "class": "devicon-postgresql-plain colored",
+          "name": "PosgreSQL"
+        },
+        {
+          "class": "devicon-redux-original colored",
+          "name": "Redux"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "PI Food",
-        "startDate": "2021",
-        "description": "Esta app fue creada consuminedo la popular api 'Spoonacular' como parte proyecto indivudual para el Bootcamp de 'SoyHenry', permite buscar, filtrar, crear y/o eliminar tus recetas que creaste previamente.",
-        "images": [
-          "images/portfolio/PI-Food/PIFOOD.png",
-          "images/portfolio//PI-Food/PIFOOD2.png"
-        ],
-        "url": "https://github.com/Christian-000/PI-Foods",
-        "technologies": [
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-jest-plain",
-            "name": "Jest"
-          },
-          {
-            "class": "devicon-postgresql-plain colored",
-            "name": "PosgreSQL"
-          },
-          {
-            "class": "devicon-redux-original colored",
-            "name": "Redux"
-          }
-        ]
-      },
-      {
-        "title": "Event-In",
-        "startDate": "2021",
-        "description": "Event-In es una app móvil, creada con el próposito de acercar a los usuarios a los eventos sociales y culturales de la zona, aportando la posibilidad de filtrarlos por fecha y categoría y buscarlos por nombre. Ya sea una fiesta, un recital o una muestra de arte, todos tienen la oportunidad de publicar el suyo.",
-        "images": [
-          "images/portfolio/EventIn/Logo_eventin.jpg",
-          "images/portfolio/EventIn/Feed_eventin.png",
-          "images/portfolio/EventIn/Register_eventin.png"
-        ],
-        "url": "https://github.com/Christian-000/EventIn",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React Native"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-firebase-plain",
-            "name": "Firebase"
-          },
-          {
-            "class": "devicon-redux-original colored",
-            "name": "Redux"
-          }
-        ]
-      },
-      {
-        "title": "UploadImg",
-        "startDate": "2021",
-        "description": "Proyecto creado para simular un storage de imagenes, inspirado en firestore",
-        "images": [
-          "images/portfolio/uploadImg/cloud-file-storage.png"
-        ],
-        "url": "https://github.com/Christian-000/uploadImg",
-        "technologies": [
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "NodeJs"
-          }
-        ]
-      },
-      {
-        "title": "tsc-app",
-        "startDate": "2021",
-        "description": "Proyecto creado con el fin de practicar TypeScript",
-        "images": [
-          "images/portfolio/tsc-app/typescript_logo.png"
-        ],
-        "url": "https://github.com/Christian-000/tsc-app",
-        "technologies": [
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-handlebars-plain",
-            "name": "handlebars"
-          }
-        ]
-      },
-      {
-        "title": "YuGuide",
-        "startDate": "2022",
-        "description": "Buscador de cartas del famoso juego de Yu-Gi-Oh!",
-        "images": [
-          "images/portfolio/Yugi/yugipic.png"
-        ],
-        "url": "https://github.com/Christian-000/YuGuide",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-redux-original colored",
-            "name": "Redux"
-          }
-        ]
-      },
-      {
-        "title": "Filosofando",
-        "startDate": "2022",
-        "description": "Api que contiene citas filosóficas famosas con sus respectivos autores.",
-        "images": [
-          "images/portfolio/Filosofando/filo.png"
-        ],
-        "url": "https://github.com/Christian-000/Filosofando",
-        "technologies": [
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "UTN FRVM",
-        "title": "Ing. Sistemas",
-        "years": "2021 - Presente",
-        "mainTech": [
-          ""
-        ],
-        "technologies": [
-          "python",
-          "POO"        
-        ]
-      },
-      {
-        "company": "Soy Henry",
-        "title": "FullStack Developer",
-        "years": "2021 - 2021",
-        "mainTech": [
-          "Javascript"
-        ],
-        "technologies": [
-          "REST API",
-          "Javascript",
-          "React",
-          "Redux",
-          "PosgreSQL",
-          "React Native",
-          "Typescript",
-          "Express",
-          "Git",
-          "Testing",
-          "SCRUM"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "Developer",
-        "years": "2021 - 2022",
-        "mainTech": [
-          ""
-        ],
-        "technologies": [
-          "Typescript",
-          "MongoDB",
-          "React Native"        
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Event-In",
+      "startDate": "2021",
+      "description": "Event-In es una app móvil, creada con el próposito de acercar a los usuarios a los eventos sociales y culturales de la zona, aportando la posibilidad de filtrarlos por fecha y categoría y buscarlos por nombre. Ya sea una fiesta, un recital o una muestra de arte, todos tienen la oportunidad de publicar el suyo.",
+      "images": [
+        "images/portfolio/EventIn/Logo_eventin.jpg",
+        "images/portfolio/EventIn/Feed_eventin.png",
+        "images/portfolio/EventIn/Register_eventin.png"
+      ],
+      "url": "https://github.com/Christian-000/EventIn",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React Native"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-redux-original colored",
+          "name": "Redux"
+        }
+      ]
+    },
+    {
+      "title": "UploadImg",
+      "startDate": "2021",
+      "description": "Proyecto creado para simular un storage de imagenes, inspirado en firestore",
+      "images": ["images/portfolio/uploadImg/cloud-file-storage.png"],
+      "url": "https://github.com/Christian-000/uploadImg",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJs"
+        }
+      ]
+    },
+    {
+      "title": "tsc-app",
+      "startDate": "2021",
+      "description": "Proyecto creado con el fin de practicar TypeScript",
+      "images": ["images/portfolio/tsc-app/typescript_logo.png"],
+      "url": "https://github.com/Christian-000/tsc-app",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-handlebars-plain",
+          "name": "handlebars"
+        }
+      ]
+    },
+    {
+      "title": "YuGuide",
+      "startDate": "2022",
+      "description": "Buscador de cartas del famoso juego de Yu-Gi-Oh!",
+      "images": ["images/portfolio/Yugi/yugipic.png"],
+      "url": "https://github.com/Christian-000/YuGuide",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-redux-original colored",
+          "name": "Redux"
+        }
+      ]
+    },
+    {
+      "title": "Filosofando",
+      "startDate": "2022",
+      "description": "Api que contiene citas filosóficas famosas con sus respectivos autores.",
+      "images": ["images/portfolio/Filosofando/filo.png"],
+      "url": "https://github.com/Christian-000/Filosofando",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    },
+    {
+      "title": "Discord Bot",
+      "startDate": "2022",
+      "description": "Bot de Discord creado para bromear con mis amigos.",
+      "images": ["images/portfolio/dsc_bot/discord_img.png"],
+      "url": "https://github.com/Christian-000/dsc_bot",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "Typescript"
+        },
+        {
+          "class": "devicon-discordjs-plain",
+          "name": "Discord.js"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "UTN FRVM",
+      "title": "Ing. Sistemas",
+      "years": "2021 - Presente",
+      "mainTech": [""],
+      "technologies": ["python", "POO"]
+    },
+    {
+      "company": "Soy Henry",
+      "title": "FullStack Developer",
+      "years": "2021 - 2021",
+      "mainTech": ["Javascript"],
+      "technologies": [
+        "REST API",
+        "Javascript",
+        "React",
+        "Redux",
+        "PosgreSQL",
+        "React Native",
+        "Typescript",
+        "Express",
+        "Git",
+        "Testing",
+        "SCRUM"
+      ]
+    },
+    {
+      "company": "Udemy",
+      "title": "Developer",
+      "years": "2021 - 2022",
+      "mainTech": [""],
+      "technologies": ["Typescript", "MongoDB", "React Native"]
+    }
+  ]
+}

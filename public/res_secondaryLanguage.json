@@ -158,6 +158,23 @@
           "name": "Express"
         }
       ]
+    },
+    {
+      "title": "Discord Bot",
+      "startDate": "2022",
+      "description": "Bot created to joke with my friends.",
+      "images": ["images/portfolio/dsc_bot/discord_img.png"],
+      "url": "https://github.com/Christian-000/dsc_bot",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "Typescript"
+        },
+        {
+          "class": "devicon-discordjs-plain",
+          "name": "Discord.js"
+        }
+      ]
     }
   ],
   "experience": [
