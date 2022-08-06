@@ -202,6 +202,13 @@
       "years": "2021 - 2022",
       "mainTech": [""],
       "technologies": ["Typescript", "MongoDB", "React Native"]
+    },
+    {
+      "company": "PrevincaSL",
+      "title": "Developer",
+      "years": "2022",
+      "mainTech": ["Javascript"],
+      "technologies": [ "Node.js", "Typescript", "React", "Redux-Toolkit", "React Native", "Expo", "Python", "REST API", "MongoDB", "Linux" ]
     }
   ]
 }
